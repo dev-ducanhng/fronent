@@ -1,15 +1,9 @@
-namespace: frontend\tests
-actor_suffix: Tester
+# global codeception file to run tests from all apps
+include:
+    - common
+    - frontend
+    - backend
 paths:
-    tests: tests
-    output: tests/_output
-    data: tests/_data
-    support: tests/_support
-bootstrap: _bootstrap.php
+    log: console/runtime/logs
 settings:
     colors: true
-    memory_limit: 1024M
-modules:
-    config:
-        Yii2:
-            configFile: 'config/codeception-local.php'

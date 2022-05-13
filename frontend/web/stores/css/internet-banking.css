@@ -1,0 +1,498 @@
+/* .main_page {
+    margin-top: 0;
+} */
+
+.main-internet-banking {
+    width: 100%;
+    /* display: inline-block; */
+}
+
+.breadcrumbs {
+    margin: 20px 0 20px 0;
+}
+
+.breadcrumbs-internet-banking {
+    margin: 20px 0 20px 130px;
+    display: inline-block;
+    height: 30px;
+    background: #FFFFFF;
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.breadcrumbs-home {
+    margin: 0 0 0 6px;
+    width: 62px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #1F9AD6;
+}
+
+.breadcrumbs-internet-banking>img {
+    margin: 0 0 0 1px;
+}
+
+.breadcrumbs-tool {
+    margin: 0 0 0 7px;
+    width: 62px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #1F9AD6;
+}
+
+.breadcrumbs-tool-name {
+    margin: 0 17px 0 7px;
+    width: 155px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #555555;
+}
+
+hr {
+    display: none;
+}
+
+.container-internet-banking {
+    display: inline-block;
+    background-color: #fff;
+    margin-bottom: 50px;
+    font-family: 'Roboto';
+    color: #555555;
+    border-radius: 10px;
+    padding: 25px 30px 0 30px;
+}
+
+.title-internet-banking {
+    margin-top: 0;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.description-internet-banking {
+    margin-top: 15px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+}
+
+.tab-internet-banking {
+    display: flex;
+    margin-top: 14px;
+    height: 50px;
+}
+
+.tab-left {
+    width: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(166, 166, 166, 0.2), 0px 4px 4px rgba(166, 166, 166, 0.2);
+}
+
+.tab_inter.active {
+    background-color: #1F9AD6;
+}
+
+.tab-left.tab_inter.active>a>i {
+    background-image: url(/stores/images/images-internet-banking/internet-banking-personal-white.png);
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+}
+
+.tab-right.tab_inter.active>a>i {
+    background-image: url(/stores/images/images-internet-banking/internet-banking-company-white.png);
+    display: inline-block;
+    width: 22px;
+    height: 18px;
+}
+
+.tab_inter.active>a>span {
+    color: #FFFFFF;
+}
+
+.tab-left>a {
+    margin: 0 auto;
+    margin-top: 15px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-left>a>i {
+    background-image: url(/stores/images/images-internet-banking/internet-banking-personal-gray.png);
+    display: inline-block;
+    width: 14px;
+    height: 18px;
+}
+
+.tab-left-distance {
+    width: 11px;
+}
+
+.tab-left>a>span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    line-height: 19px;
+}
+
+.tab-right {
+    width: 50%;
+    text-align: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(166, 166, 166, 0.2), 0px 4px 4px rgba(166, 166, 166, 0.2);
+}
+
+.tab-right>a {
+    margin: 0 auto;
+    margin-top: 15px;
+    color: #555555;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-right>a>i {
+    background-image: url(/stores/images/images-internet-banking/internet-banking-company-gray.png);
+    display: inline-block;
+    width: 22px;
+    height: 18px;
+}
+
+.tab-right-distance {
+    width: 8px;
+}
+
+.tab-right>a>span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    line-height: 19px;
+}
+
+.list-internet-banking {
+    margin-top: 34px;
+    display: flex;
+}
+
+.ul-internet-banking {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ul-internet-banking li {
+    width: 25%;
+    display: flex;
+}
+
+.ul-internet-banking hr {
+    display: none;
+    margin: 20px 16px 20px 16px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.ul-internet-banking li:nth-child(6n+2) {
+    justify-content: left;
+}
+
+.ul-internet-banking li:nth-child(6n+4) {
+    justify-content: left;
+}
+
+.ul-internet-banking li:nth-child(6n+5) {
+    display: flex;
+    justify-content: left;
+}
+
+.li-internet-banking {
+    width: 163px;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.li-internet-banking>i {
+    background-image: url(/stores/images/images-internet-banking/icon-li-interner-banking.png);
+    width: 10px;
+    height: 20px;
+}
+
+.li-internet-banking-distance {
+    width: 10px;
+    height: 20px;
+}
+
+.li-internet-banking>a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #555555;
+}
+
+.li-internet-banking>a:hover {
+    color: #1a76bc;
+}
+
+.content_tab {
+    display: none;
+}
+
+.content_tab.active {
+    display: block;
+}
+
+.page-internet-banking {
+    display: none;
+}
+.des_sub{
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 16px;
+    display: inline-block;
+    width: 100%;
+    line-height: unset;
+    height: unset;
+}
+@media screen and (max-width: 1024px) {
+    .des_sub{
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
+        border-bottom: 0;
+    }
+    .li-internet-banking>a {
+        text-align: left;
+    }
+
+    .main-internet-banking {
+        width: 100%;
+        display: inline-block;
+        background-color: #FFFFFF;
+    }
+
+    .breadcrumbs-internet-banking {
+        margin: 20px 0 0 16px;
+        display: inline-block;
+        height: 30px;
+        background: #FFFFFF;
+        border: 0.5px solid #C4C4C4;
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+
+    .breadcrumbs-home {
+        margin: 4px 0 4px 6px;
+        width: 62px;
+        height: 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #1F9AD6;
+    }
+
+    .breadcrumbs-internet-banking img:nth-child(1) {
+        margin: 0 0 0 12px;
+    }
+
+    .breadcrumbs-internet-banking img:nth-child(2) {
+        margin: 0 0 0 11px;
+    }
+
+    .breadcrumbs-tool {
+        margin: 0 0 0 7px;
+        width: 62px;
+        height: 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #1F9AD6;
+    }
+
+    .breadcrumbs-tool-name {
+        margin: 0 6px 0 3px;
+        width: 155px;
+        height: 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #555555;
+    }
+
+    hr {
+        display: block;
+        margin: 20px 16px 20px 16px;
+        border-style: inset;
+        border-width: 1px;
+    }
+
+    .container-internet-banking {
+        width: 100%;
+        margin: 0 0 30px 0;
+        padding: 0;
+    }
+
+    .title-internet-banking {
+        height: 51px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: #555555;
+        border-top: 1px solid #C4C4C4;
+        padding-top: 20px;
+    }
+
+    .description-internet-banking {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #555555;
+    }
+
+    .tab-internet-banking {
+        display: flex;
+        margin-top: 20px;
+        height: 50px;
+        margin-bottom: 0;
+    }
+
+    .tab-left {
+        background-color: #E5E5E5;
+        box-shadow: none;
+    }
+
+    .tab-right {
+        background-color: #E5E5E5;
+        box-shadow: none;
+    }
+
+    /* .list-internet-banking {
+        width: calc(100% - 32px);
+        margin: 16px;
+    } */
+
+    .ul-internet-banking li {
+        width: 50%;
+        display: flex;
+        justify-content: left;
+        margin-bottom: 0;
+    }
+    .list-internet-banking{
+        margin-top: 0;
+    }
+    .li-internet-banking  {
+        border-bottom: 1px solid #C4C4C4;
+        padding: 16px 0 16px 0;
+    }
+
+    /* .ul-internet-banking li:nth-child(6n+1),
+    .ul-internet-banking li:nth-child(6n+2),
+    .ul-internet-banking li:nth-child(6n+4),
+    .ul-internet-banking li:nth-child(6n+5) {
+    } */
+
+    .ul-internet-banking hr {
+        display: block;
+        margin: 16px 0;
+        border-style: inset;
+        border-width: 1px;
+        width: 100%;
+    }
+
+  
+    .li-internet-banking>i {
+        background-image: url(/stores/images/images-internet-banking/icon-li-interner-banking.png);
+        /* display: none; */
+        width: 10px;
+        margin-right: 10px;
+    }
+
+    .li-internet-banking-distance {
+        display: none;
+        width: 10px;
+    }
+
+    .page-internet-banking {
+        display: none;
+    }
+
+    .page-internet-banking a:nth-child(1) {
+        margin: 20px 0 0 16px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1F9AD6;
+    }
+
+    .page-internet-banking a:nth-child(2),
+    .page-internet-banking a:nth-child(3) {
+        margin: 20px 0 0 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #555555;
+    }
+
+    .page-internet-banking a:nth-child(4) {
+        margin: 20px 0 0 20px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1F9AD6;
+    }
+
+    .page-internet-banking a:nth-child(5) {
+        margin: 20px 0 0 20px;
+    }
+
+    .page-internet-banking>a>i {
+        background-image: url(/stores/images/images-internet-banking/group-2074.png);
+        display: inline-block;
+        width: 15.78px;
+        height: 12.73px;
+    }
+}

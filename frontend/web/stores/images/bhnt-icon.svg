@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="47" viewBox="0 0 46 47">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_792" data-name="Rectangle 792" width="46" height="47" transform="translate(5755 -3209)" fill="none" stroke="#7a7a7a" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_21" data-name="Mask Group 21" transform="translate(-5755 3209)" clip-path="url(#clip-path)">
+    <g id="bảo_hiểm_nhân_thọ_icon" data-name="bảo hiểm nhân thọ icon" transform="translate(5762 -3202.182)">
+      <g id="Insurance" transform="translate(0 0)">
+        <path id="Handle" d="M29.487,39.6A2.743,2.743,0,1,1,24,39.6V30" transform="translate(-7.246 -8.935)" fill="none" stroke="#0093d6" stroke-linecap="square" stroke-width="1.5" fill-rule="evenodd"/>
+        <path id="Roof" d="M16.7,5A16.584,16.584,0,0,0,0,21.46H33.409A16.584,16.584,0,0,0,16.7,5Z" transform="translate(0 -1.571)" fill="#fff" stroke="#0093d6" stroke-width="1.5" fill-rule="evenodd"/>
+        <path id="Focus" d="M20.858,4.991C17.071,4.991,14,12.366,14,21.457H27.717C27.717,12.366,24.646,4.991,20.858,4.991Z" transform="translate(-4.154 -1.568)" fill="#0093d6" stroke="#0093d6" stroke-width="1.5" fill-rule="evenodd"/>
+        <path id="Point" d="M24,0V2.743" transform="translate(-7.295)" fill="none" stroke="#0093d6" stroke-linecap="square" stroke-width="1.5" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

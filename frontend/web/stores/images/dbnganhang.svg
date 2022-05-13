@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="47" viewBox="0 0 46 47">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_805" data-name="Rectangle 805" width="46" height="47" transform="translate(20 672)" fill="none" stroke="#7a7a7a" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="frame_icon" data-name="frame icon" width="38.672" height="28.887" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_34" data-name="Mask Group 34" transform="translate(-20 -672)" clip-path="url(#clip-path)">
+    <g id="danh-sach-yeu-cau-bu-icon" transform="translate(20 677.353)">
+      <g id="Mask_Group_33" data-name="Mask Group 33" transform="translate(3.473 2.594)" clip-path="url(#clip-path-2)">
+        <g id="icon" transform="translate(2.769 0.445)">
+          <rect id="Rectangle_804" data-name="Rectangle 804" width="33.045" height="28.887" transform="translate(0)" fill="none"/>
+          <g id="Pictograms_3_" transform="translate(5.846 1.451)">
+            <g id="ds_pictograms_payments_3_" transform="translate(0 0)">
+              <g id="Icon---Payments_3_">
+                <path id="Fill-1_3_" d="M-307.64,24.868h18.393V.718H-307.64Z" transform="translate(309.887 1.528)" fill="#fff" fill-rule="evenodd"/>
+                <path id="Stroke-2_3_" d="M-307.64,24.868h18.393V.718H-307.64Z" transform="translate(309.887 1.528)" fill="#0093d6" stroke="#0093d6" stroke-width="1.5"/>
+                <path id="Fill-4_3_" d="M-308.917,23.592h18.393V-.559h-18.393Z" transform="translate(308.917 0.559)" fill="#fff" fill-rule="evenodd"/>
+                <path id="Stroke-5_3_" d="M-308.917,23.592h18.393V-.559h-18.393Z" transform="translate(308.917 0.559)" fill="none" stroke="#0093d6" stroke-width="1.5"/>
+                <path id="Stroke-7_1_" d="M-306.6,3.352h12.075" transform="translate(310.675 3.528)" fill="none" stroke="#0093d6" stroke-width="1.5"/>
+                <path id="Stroke-8_2_" d="M-304.289,4.629h8" transform="translate(312.432 4.498)" fill="none" stroke="#0093d6" stroke-width="1.5"/>
+                <path id="Stroke-7_4_" d="M-306.6,5.905h12.075" transform="translate(310.675 5.468)" fill="none" stroke="#0093d6" stroke-width="1.5"/>
+                <path id="Stroke-8_3_" d="M-304.289,7.182h8" transform="translate(312.432 6.437)" fill="none" stroke="#0093d6" stroke-width="1.5"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

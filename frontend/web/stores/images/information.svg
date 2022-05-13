@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="47" viewBox="0 0 46 47">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_799" data-name="Rectangle 799" width="46" height="47" transform="translate(-7 -7.211)" fill="none" stroke="#7a7a7a" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="information" transform="translate(7 7.211)">
+    <g id="Mask_Group_28" data-name="Mask Group 28" clip-path="url(#clip-path)">
+      <g id="Group_1127" data-name="Group 1127" transform="translate(1.433 2.147)">
+        <g id="Group_1108" data-name="Group 1108" transform="translate(0 1)">
+          <g id="Group_1107" data-name="Group 1107">
+            <path id="Path_194" data-name="Path 194" d="M13.567,0A13.567,13.567,0,1,0,27.134,13.567,13.56,13.56,0,0,0,13.567,0Zm0,25.015A11.447,11.447,0,1,1,25.015,13.567,11.441,11.441,0,0,1,13.567,25.015Z" fill="#0093d6"/>
+          </g>
+        </g>
+        <g id="Group_1110" data-name="Group 1110" transform="translate(12.507 12.359)">
+          <g id="Group_1109" data-name="Group 1109">
+            <path id="Path_195" data-name="Path 195" d="M237.06,214.33a1.06,1.06,0,0,0-1.06,1.06v6.826a1.06,1.06,0,1,0,2.12,0V215.39A1.06,1.06,0,0,0,237.06,214.33Z" transform="translate(-236 -214.33)" fill="#0093d6"/>
+          </g>
+        </g>
+        <g id="Group_1112" data-name="Group 1112" transform="translate(12.136 8.199)">
+          <g id="Group_1111" data-name="Group 1111">
+            <circle id="Ellipse_30" data-name="Ellipse 30" cx="1.431" cy="1.431" r="1.431" fill="#0093d6"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

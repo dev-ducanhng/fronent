@@ -1,0 +1,194 @@
+.left-push {
+    display: none !important;
+}
+
+main>.container {
+    padding: 20px 15px 20px;
+}
+
+.container:nth-child(2) {
+    padding: 20px 0 0 0 !important;
+}
+
+.breadcrumbs {
+    margin: 0 !important;
+}
+
+.hr {
+    display: none;
+}
+
+.list_insurance {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(166, 166, 166, 0.2);
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 25px 30px 0 30px;
+}
+
+.title>h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.description {
+    margin-top: 15px;
+}
+
+.description>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+}
+
+.list_hr {
+    width: 100%;
+}
+
+.list_hr>hr {
+    border: 1px solid #C4C4C4;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.icon_list {
+    background-image: url(../images/insurance/icon-list-insurance.png);
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+}
+.mobile_hidden{
+    /* text-align: center;
+    padding-top: 30px; */
+    padding-bottom: 15px;
+}
+.see_more {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.btn_see_more{
+    display: none;
+    padding: 0;
+    outline: none;
+    background: none;
+    /* border: 1px solid white; */
+    border: none;
+}
+.icon_see_more{
+    background-image: url(../images/insurance/icon-see-more.png);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 10px;
+    display: inline-block;
+}
+
+.span_list {
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+    vertical-align: top;
+}
+.span_list:hover{
+    color: #1a76bc;
+}
+
+.col_style {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    main>.container {
+        padding: 20px 0;
+    }
+
+    .breadcrumbs {
+        margin-left: 16px !important;
+    }
+
+    .hr {
+        display: block;
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .hr>hr {
+        border: 1px solid #C4C4C4;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .list_insurance {
+        box-shadow: none;
+        border-radius: 0;
+        margin-top: 0;
+        padding: 20px 16px 0 16px;
+    }
+
+    .title>h1 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .description>h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .list_hr {
+        display: none;
+    }
+
+    .icon_list {
+        display: none;
+    }
+
+    .span_list {
+        margin-left: 0;
+    }
+
+    .col_style {
+        border-bottom: 1px solid #C4C4C4;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 15px 0;
+    }
+
+    .mobile_hidden {
+        display: none;
+    }
+    main>.container{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .btn_see_more{
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 320px) {
+    .col_style:nth-child(2n){
+        padding-left: 5px;
+    }
+
+}
+
