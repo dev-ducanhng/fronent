@@ -1,0 +1,588 @@
+.body {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+/* internet banking */
+.box-heading {
+    margin: 0 50px 0 136px;
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 20px 69px 40px 69px;
+    font-family: Roboto, sans-serif;
+    float: left;
+    width: calc(100% - 186px);
+    border-radius: 10px;
+    margin-bottom: 86px;
+}
+.header_caculator,
+.saving-cal {
+    display: inline-block;
+}
+.box-heading h1 {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 20px;
+    color: #555555;
+    font-weight: 600;
+}
+
+.header-caculator {
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    margin-bottom: 25px;
+    padding: 0 5%;
+}
+
+.roboto-light {
+    font-family: "Roboto Light", sans-serif !important;
+}
+
+.descript_page {
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding-top: 0;
+    font-size: 18px;
+    color: #555555;
+    line-height: 21px;
+    margin-bottom: 25px;
+}
+
+#tool_page .bottom_content_page .animated {
+    top: 0;
+}
+
+.bottom_content_page {
+    transition: all 0.6s;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.saving-personal-calculator {
+    display: inline-block;
+    width: 100%;
+}
+
+.saving > div,
+tab-content > .tab-pane {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+}
+
+.saving-account > div,
+.tab-content > .tab-pane {
+    float: left;
+    width: 100%;
+    background-color: #fff;
+}
+
+.range-calculotor {
+    float: left;
+    width: 100%;
+    margin-bottom: 57px;
+}
+
+.value-label {
+    font-weight: 400;
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 11px;
+}
+
+.value-current {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    color: #1f9ad6;
+    font-size: 18px;
+    font-weight: 600 !important;
+    width: 100%;
+    line-height: 20px;
+    padding: 14px 0;
+    text-indent: 15px;
+}
+
+.div_right {
+    width: calc(100% - 426px);
+    padding: 40px 0 0 70px;
+    float: left;
+}
+
+.calculator-wraper {
+    margin-bottom: 1.25em;
+}
+
+.range-container {
+    width: 100%;
+}
+
+.range-container,
+.rangeslider {
+    position: relative;
+}
+
+.input-ranger {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.rangeslider,
+.rangeslider__fill {
+    background-color: transparent;
+    height: 8px;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.rangeslider__fill__new {
+    background: #ddd;
+    border-radius: 0.5em;
+    height: 8px;
+    margin-left: 0;
+    position: absolute;
+    width: 100% !important;
+    padding-right: 0;
+}
+.arrow-left-1 {
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    position: absolute;
+    top: 9px;
+}
+
+.rangeslider__fill {
+    background-color: transparent;
+    display: block;
+    height: 0.714286em;
+    width: 100%;
+}
+
+.splitter {
+    border-right: 1px solid #fff;
+    height: 8px;
+    position: relative;
+    top: -7px;
+    width: 10%;
+    display: inline-block;
+}
+
+.rangeslider__handle {
+    background: #1f9ad6;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 20px;
+    position: relative;
+    top: -16px;
+    width: 58px;
+}
+
+.arrow-left-1 {
+    border-left: 6px solid #1f9ad6;
+    right: 19px;
+    z-index: 1;
+}
+
+.arrow-left-2 {
+    border-left: 6px solid #fff;
+    right: 17px;
+}
+
+.arrow-right-1 {
+    border-right: 6px solid #1f9ad6;
+    left: 19px;
+    z-index: 1;
+}
+
+.arrow-right-2 {
+    border-right: 6px solid #fff;
+    left: 17px;
+}
+
+.arrow-left-1,
+.arrow-left-2,
+.arrow-right-1,
+.arrow-right-2 {
+    border-bottom: 6px solid transparent;
+    border-top: 6px solid transparent;
+    position: absolute;
+    top: 5px;
+}
+
+.range-container .min-max-value {
+    position: relative;
+    width: 100%;
+}
+
+.range-container .min-max-value .min-value {
+    left: 0px;
+}
+
+.range-container .min-max-value .max-value {
+    right: 0;
+}
+
+.range-container .min-max-value .max-value,
+.range-container .min-max-value .min-value {
+    font-size: 14px;
+    position: absolute;
+    top: 14px;
+    color: #231f20;
+}
+.range-input-slide {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.div_left {
+    width: 426px;
+    float: left;
+}
+
+.range-interest {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.div_right.result_final {
+    margin-top: 30px;
+}
+
+.calculator-info-result.centered {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    background-color: #e5e5e5;
+}
+
+.value-info {
+    color: #27aae1;
+}
+
+.range-interest .div_right {
+    padding-top: 0;
+}
+
+.calculator-info-result.centered > div {
+    float: left;
+    margin-right: 5%;
+}
+.calculator-info-result span {
+    color: #555555;
+    font-size: 18px;
+}
+.value-info {
+    color: #1f9ad6 !important;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.div_small {
+    float: left;
+    font-size: 14px;
+    margin: 0 2% 20px;
+    padding: 0;
+    width: 96%;
+}
+.saving-account .div_small {
+    margin-top: 45px;
+}
+.calculator-info-result b,
+.calculator-info-result span {
+    float: left;
+}
+.note_rate {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555555;
+}
+@media screen and (max-width: 1024px) {
+    .splitter {
+        height: 5px;
+        top: -10px;
+    }
+    .box-heading {
+        width: 100%;
+        padding: 0 15px 50px 15px;
+        margin: 0;
+        border-radius: 0;
+    }
+    .box-heading h1 {
+        margin-bottom: 20px;
+    }
+    .descript_page {
+        font-size: 16px;
+        margin-bottom: 17px;
+    }
+    .value-label {
+        font-size: 16px;
+    }
+    .value-current {
+        font-size: 16px;
+        padding: 4px 0;
+    }
+    .div_left {
+        width: 100%;
+    }
+    .div_right {
+        width: 100%;
+        padding: 0;
+        float: left;
+        margin-top: 20px;
+    }
+    .range-container .min-max-value .max-value,
+    .range-container .min-max-value .min-value {
+        color: #c4c4c4;
+    }
+    .rangeslider__handle {
+        height: 15px;
+        top: -15px;
+    }
+    .rangeslider__fill__new {
+        height: 5px;
+    }
+    .arrow-left-1,
+    .arrow-left-2,
+    .arrow-right-1,
+    .arrow-right-2 {
+        top: 2px;
+    }
+    .range-calculotor {
+        margin-bottom: 45px;
+    }
+    .calculator-info-result.centered > div {
+        width: 100%;
+        text-align: center;
+    }
+    .calculator-info-result span {
+        width: 100%;
+        display: inline-block;
+    }
+    .value-info {
+        margin: 15px 0;
+    }
+    .calculator-info-result.centered {
+        padding: 24px;
+    }
+    .note_rate {
+        font-size: 16px;
+        color: #555555;
+        margin-top: 20px;
+        display: inline-block !important;
+        margin-bottom: 16px;
+    }
+    .div_right.result_final {
+        margin-top: 0;
+    }
+}
+
+/* Công cụ tài chính */
+.banner {
+    width: 100%;
+    height: 550px;
+    background: url(/stores/images/media/banner_media.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    margin: 20px 50px 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 0.5px solid #c4c4c4;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 11px 0 6px;
+    display: inline-flex;
+}
+
+.title a {
+    color: #1f9ad6;
+    font-size: 14px;
+}
+
+.title i {
+    background: url(/stores/images/icon/icon-breadcrump.png);
+    height: 100%;
+    display: inline-block;
+    width: 18px;
+    margin-right: 7px;
+}
+
+.title span {
+    font-size: 14px;
+    color: #555555;
+}
+
+.gr-title-card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.gr-title-card>h2 {
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #555555;
+    padding-bottom: 10px;
+}
+
+.gr-title-card>span {
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+}
+
+
+
+.box-item {
+    width: 100%;
+}
+
+.gr-layout {
+    box-shadow: 0px 4px 4px rgba(166, 166, 166, 0.2), 0px 0px 4px rgba(166, 166, 166, 0.2);
+    border-radius: 10px;
+    background-color: #FFFFFF;
+
+}
+
+.bg-title {
+    position: relative;
+    text-align: center;
+}
+
+.bg-title>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.bg-title>p {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+}
+
+.gr-content-card {
+    padding-top: 41px;
+    padding-bottom: 20px;
+
+}
+.hoverr :hover a{
+    color: #27aae1;
+}
+
+
+.ims {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading {
+    padding-top: 16px;
+    text-align: center;
+}
+
+.heading>a {
+    color: #555555;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.heading>p {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 7px;
+}
+
+.heading>span {
+    display: flex;
+    margin-top: 30px;
+}
+
+.heading>span>img {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.gr-layout-card {
+    margin-bottom: 50px;
+}
+
+
+.bd-group {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-title {
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .gr-content-card {
+        margin-bottom: 30px;
+        background-color: #ffffff;
+    }
+
+    .gr-layout {
+        box-shadow: none;
+        border-radius: unset;
+        background-color: #f1f1f2;
+    }
+    .gr-layout-card {
+        border-top: 1px solid #C4C4C4;
+        padding-top: 20px;
+        border-radius: unset;
+    }
+
+    .gr-title-card {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        border: none;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+    .gr-title-card>span {
+        font-size: 16px;
+        padding: 0 20px;
+        display: inline-block;
+    }
+
+    .bd-group {
+        padding: 0;
+    }
+    .heading>a {
+        font-size: 18px;
+    }
+    .heading>p{
+        font-size: 16px;
+    }
+}

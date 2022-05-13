@@ -1,0 +1,817 @@
+#breadcrumbs_promotion {
+    margin: 20px 50px 0 0px;
+    float: none;
+    display: inline-flex;
+}
+
+.form_filter_promotion {
+    display: block;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(166, 166, 166, 0.2), 0px 0px 4px rgba(166, 166, 166, 0.2);
+
+    padding: 20px 30px;
+    margin-top: 20px;
+    
+}
+
+.form_filter_promotion>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+
+    /* Text */
+
+    color: #555555;
+    margin-bottom: 0px;
+}
+
+.icon_company {
+    position: absolute;
+    background-image: url(../../images/promotion/icon_bank.png);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 17px 0 0 15px;
+    z-index: 1;
+}
+
+.company_insurance>div .chosen-single {
+    background: #E5E5E5 !important;
+    height: 50px !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+    border: none !important;
+}
+
+.company_insurance>div .chosen-single>span {
+    margin: 15px 0 0 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #555555;
+}
+
+.company_insurance>div .chosen-single>div {
+    width: 13px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.company_insurance>div .chosen-single>div>b {
+    display: block;
+    width: 13px;
+    height: 8px;
+    background: url(../../images/insurance/arrow-dropdown.png) !important;
+    margin-top: 23px;
+}
+
+.province {
+    position: relative;
+}
+
+.icon_province {
+    position: absolute;
+    background-image: url(../../images/insurance/icon-position.png);
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin: 17px 0 0 15px;
+    z-index: 1;
+}
+
+.select_province {
+    width: 100%;
+    height: 50px;
+    padding: 0 40px;
+    background: #E5E5E5;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+}
+
+.province>div .chosen-single {
+    background: #E5E5E5 !important;
+    height: 50px !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+    border: none !important;
+}
+
+.province>div .chosen-single>span {
+    margin: 15px 0 0 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+}
+
+.province>div .chosen-single>div {
+    width: 13px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.province>div .chosen-single>div>b {
+    display: block;
+    width: 13px;
+    height: 8px;
+    background: url(../../images/insurance/arrow-dropdown.png) !important;
+    margin-top: 23px;
+}
+
+.icon_dichvu {
+    position: absolute;
+    background-image: url(../../images/promotion/icon_dichvu.png);
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin: 20px 0 0 15px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.icon-refresh_filter {
+
+    background-image: url(../../images/promotion/icon_chonlai.png);
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.district {
+    position: relative;
+}
+
+.icon_cardbank {
+    position: absolute;
+    background-image: url(../../images/promotion/icon_card.png);
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin: 17px 0 0 15px;
+    z-index: 1;
+}
+
+.select_district {
+    width: 100%;
+    height: 50px;
+    padding: 0 40px;
+    background: #E5E5E5;
+    border: none;
+}
+
+.district>div .chosen-single {
+    background: #E5E5E5 !important;
+    height: 50px !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+    border: none !important;
+}
+
+.district>div .chosen-single>span {
+    margin: 15px 0 0 32px;
+}
+
+.district>div .chosen-single>div {
+    width: 13px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.district>div .chosen-single>div>b {
+    display: block;
+    width: 13px;
+    height: 8px;
+    background: url(../images/insurance/arrow-dropdown.png) !important;
+    margin-top: 23px;
+}
+
+.button_submit {
+    width: 100%;
+    display: flex;
+}
+
+.button_submit>button {
+    display: flex;
+    width: 100%;
+    height: 51px;
+    border: none;
+    background: #1F9AD6;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_submit>i {
+    background-image: url(../../images/insurance/icon-search.png);
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.span_button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.btn_refresh_filter {
+    display: flex;
+    justify-content: center;
+}
+
+.refresh_filter {
+    background: #FFFFFF;
+    display: block;
+    border: 1px solid #FF5C00;
+    padding: 14px 0px;
+    width: 91%;
+    justify-content: center;
+    display: flex;
+    color: #555555;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    cursor:pointer;
+}
+
+.content_promotion {
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    box-shadow: 0px 4px 4px rgba(166, 166, 166, 0.2), 0px 0px 4px rgba(166, 166, 166, 0.2);
+}
+
+.content_header {
+    padding-bottom: 20px;
+}
+
+.content_header a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.col_style {
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.col_style2 {
+    margin-top: 20px;
+
+}
+
+.content_header .row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 20px;
+}
+
+.content_header h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #555555;
+
+}
+
+.endow_a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #555555;
+}
+
+.div_sort {
+    float: right;
+    position: relative;
+    cursor: pointer;
+}
+
+.icon_sort {
+    /* position: absolute; */
+    background-image: url(../images/consultant/icon-sort.png);
+    display: inline-block;
+    width: 16px;
+    height: 19px;
+    /* margin: 0 0 0 -26px; */
+}
+
+.select_sort {
+    border: none;
+
+    cursor: pointer;
+    appearance: none;
+    text-align: right;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+    padding-right: 22px;
+}
+
+.icon_arrow {
+    position: absolute;
+    background-image: url(../images/consultant/icon-arrow.png);
+    display: inline-block;
+    width: 12px;
+    height: 6px;
+    margin: 8px 0 0 -12px;
+}
+
+.dropdown_block {
+    display: none;
+}
+
+.ul_dropdown {
+    position: absolute;
+    z-index: 1;
+    width: 170px;
+    background-color: #FFFFFF;
+    right: 0;
+    left: auto;
+    padding: 20px 17px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(166 166 166 / 20%), 0px 0px 4px rgb(166 166 166 / 20%);
+}
+
+.ul_dropdown>li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.dropdown_hidden {
+    display: none;
+}
+
+.dropdown_block {
+    display: block;
+}
+
+.list_endov {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.w_list_endov p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+}
+
+.w_list_endov span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+}
+
+.nav_endov {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.child_promotion {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    padding-left: 0;
+    padding-right: 0;
+    width: 30.5%;
+    position: relative;
+}
+
+.img_endov {
+    width: 100%;
+}
+
+.info_child_providers {
+    padding: 20px 12px;
+}
+
+.promotion_name h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #1F9AD6;
+}
+.promotion_name h3:hover{
+    color: #555555;
+}
+
+.content_header a:hover{
+    color: #1F9AD6;
+}
+.promotion_view {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+    margin-top: 20px;
+}
+
+.reduction {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+    margin-top: 20px;
+}
+
+.for_car {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+    margin-top: 20px;
+}
+
+.for_car a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1F9AD6;
+
+}
+.for_car a:hover {
+    color: #555555 ;
+}
+.see_more {
+    text-align: center;
+}
+
+.btn_see_more {
+
+    padding: 0;
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.see_more p {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+
+}
+
+.icon_see_more {
+    margin-left: 5px;
+    background-image: url(../../images/promotion/icon-see-more.png);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 10px;
+    display: inline-block;
+}
+
+.tag {
+    display: flex;
+    margin-bottom: 40px;
+}
+.tag >ul{
+    display: flex;
+}
+.tag ul>li {
+    display: inline-block;
+    background-color: #E5E5E5;
+    padding: 6px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tag i {
+    margin: 4px 0;
+    width: 33px;
+    height: 25px;
+    display: block;
+    background-image: url(../../images/promotion/tag.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 20px;
+}
+
+.tag ul>li>a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #555555;
+
+}
+
+.tag ul>li:hover {
+    background-color: #08c;
+    color: #ffffff;
+}
+
+.tag ul>li:hover a {
+
+    color: #ffffff;
+}
+
+.sprite_membership {
+    background-image: url(../../images/promotion/icon_expire.png);
+    background-repeat: no-repeat;
+    height: 70px;
+    padding-top: 13px;
+    position: absolute;
+    right: 36px;
+    text-align: center;
+    top: -8px;
+    width: 107px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.icon_for {
+    background-image: url(../images/promotion/icon_for.png);
+
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 15px;
+    display: inline-block;
+}
+
+.icon_for {
+    display: none;
+}
+
+.multiple_select {
+    width: 100% !important;
+    border: none;
+    height: 50px;
+    background: #E5E5E5;
+
+}
+
+.multiple_select span:nth-child(1) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+
+}
+
+.select_card {
+    float: left;
+    margin-left: 38px;
+    margin-top: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+color: #555555;
+}
+
+.select_company {
+    width: 100%;
+    height: 50px;
+    padding: 0 40px;
+    background: #E5E5E5;
+    border: none;
+    font-family: 'Roboto';
+    color: #555555;
+    font-weight: 400;
+    font-size: 18px;
+}
+.mobile_hidden {
+    display: none;
+}
+.select_company>option {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #555555;
+}
+.right_btn >span{
+    display: block;
+    width: 13px;
+    height: 8px;
+    background: url(../../images/insurance/arrow-dropdown.png) !important;
+    margin: 13px 10px;
+}
+.min_height{
+    height: 327.39px;
+}
+@media screen and (max-width: 768px) {
+    .min_height{
+        height: 344.86px;
+    }
+    .content_promotion {
+        padding: 15px 15px;
+    }
+
+    .icon_for {
+        display: inline-block;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .child_promotion {
+        width: 47%;
+    }
+    
+    .nav_endov {
+        display: inline-block;
+    }
+
+    .w_list_endov>div {
+        width: 100%;
+    }
+
+    .div_sort {
+        width: 100%;
+    }
+
+    .w_list_endov span {
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 5px;
+
+    }
+    .hiden_540{
+        display: none !important;
+    }
+
+    .w_list_endov {
+        margin-bottom: 10px;
+    }
+
+    .icon_sort {
+        height: 14px;
+    }
+
+    .tag>i {
+        background-repeat: no-repeat;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .child_promotion {
+        width: 1000%;
+    }
+    .refresh_filter{
+        width: 100%;
+        padding: 14px 0px;
+    }
+    #btn_btn_btn{
+        padding-left:0 ;
+    }
+    .col-12{
+        padding: 0;
+    }
+    .district>div .chosen-single>div>b {
+        display: block;
+        width: 13px;
+        height: 8px;
+        background: url(../../images/insurance/arrow-dropdown.png) !important;
+        margin-top: 23px;
+    }
+    .right_btn >span{
+        display: block;
+        width: 10px;
+        height: 6px;
+        background: url(../../images/insurance/arrow-dropdown.png) !important;
+        background-repeat: no-repeat;
+        background-size: cover !important;
+        margin: 13px 2px;
+    }
+    .sprite_membership{
+        right: 20px;
+    }
+    #breadcrumbs_promotion{
+        margin-left: 20px;
+        margin-right: 0;
+    }
+    .breadcrumbs_line{
+        padding: 0px 20px;
+    }
+    .breadcrumbs_line>p{
+        margin-top: 20px;
+        border-bottom: 1px solid #C4C4C4;
+    }
+    .tag i{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 375px) {
+    #breadcrumbs_promotion{
+        margin-left: 10px;
+      
+    }
+    .multiple_select span:nth-child(1){
+        margin-right: 3px;
+    }
+    .select_province{
+        padding: 0 26px;
+    }
+    .select_company{
+        padding: 0 28px;
+    }
+    .tag i{
+        margin-left: 0px;
+        margin-right: 8px;
+        width: 29px;
+    }
+    .tag >ul{
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+    .content_header{
+        padding-bottom: 0;
+    }
+}

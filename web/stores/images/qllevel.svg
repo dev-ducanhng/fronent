@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="47" viewBox="0 0 46 47">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_793" data-name="Rectangle 793" width="46" height="47" transform="translate(5756 -3133)" fill="none" stroke="#7a7a7a" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_22" data-name="Mask Group 22" transform="translate(-5756 3133)" clip-path="url(#clip-path)">
+    <g id="thu-hang-cua-toi-icon" transform="translate(5763 -3121.794)">
+      <rect id="Rectangle_746" data-name="Rectangle 746" width="32.178" height="28.129" fill="none"/>
+      <g id="Group_1042" data-name="Group 1042" transform="translate(2.247 1.385)">
+        <circle id="Ellipse_24" data-name="Ellipse 24" cx="12.498" cy="12.498" r="12.498" transform="translate(1.345 -4.553)" fill="#0093d6" stroke="#0093d6" stroke-width="1"/>
+        <path id="Path_122" data-name="Path 122" d="M10.967,15.659,4.727,21.047l7.09-.142L13.8,26.861l4.254-7.09" transform="translate(-5.49 0.175)" fill="rgba(0,0,0,0)" stroke="#0093d6" stroke-width="1" fill-rule="evenodd"/>
+        <path id="Path_123" data-name="Path 123" d="M22.848,15.659l6.239,5.388L22,20.906l-1.985,5.956-4.254-7.09" transform="translate(-0.639 0.175)" fill="rgba(0,0,0,0)" stroke="#0093d6" stroke-width="1" fill-rule="evenodd"/>
+        <path id="Path_124" data-name="Path 124" d="M20.4,6.8l2.406,7.219h7.875l-6.344,4.594,2.406,7.438L20.4,21.452l-6.125,4.594,2.406-7.438-6.344-4.594h7.875Z" transform="translate(-6.586 -8.476)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
